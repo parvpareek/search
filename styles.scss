@@ -1,0 +1,134 @@
+.search {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 582px;
+    flex-wrap: wrap;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #929292;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    outline-width: 0;
+    background-color: transparent;
+    word-wrap: break-word;
+  }
+  
+  .search:hover {
+    box-shadow: 1px 2px grey;
+  }
+  
+  
+  
+  #logo {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+  
+  
+  
+  %submit-buttons{
+    border-radius: 5px;
+    height: 36px;
+    width: 127.4px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+  
+  }
+  
+  .submit{
+    @extend %submit-buttons;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    
+  }
+
+  %button-hover{
+    border: 0.5px solid grey;
+    box-shadow: 0.5px 0.5px rgb(163, 162, 162);
+  }
+  .submit:hover{
+      @extend %button-hover;
+  }
+
+  .lucky:hover{
+    @extend %button-hover;
+  }
+  
+  .lucky{
+      @extend %submit-buttons;
+      position: absolute;
+      top: 55%;
+
+      left: 50%;
+  }
+
+  .links{
+      position: absolute;
+      top: 5%;
+      right: 5%;  
+  }
+  .gimages{
+    position: relative;
+    right: 10%;
+  }
+
+  /* Advanced Search*/
+
+  .flexbox-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 15%;
+    top: 30%
+  }
+
+  .flexbox-item{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 29px;
+    width: 572px;
+    padding: 1px 8px;
+    margin: 5px;
+    flex-shrink: 1;
+  }
+
+
+
+#alag{
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  top: 23%;
+  padding-left: 30px;
+  line-height: 34px;
+}
+
+#title{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 400;
+text-decoration-color: #d93025;
+color: #d93025;
+margin-left: 38px;
+position: absolute;
+top: 11%;
+}
+#line{
+  border-bottom: 1px solid #ebebeb;
+  position: absolute;
+  width: 100%;
+  top: 130px;
+
+}
